@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(assets/images/1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-toggler{
+    background: #fff;
+    outline: none !important;
+    font-size: 18px;
+    line-height: 0.3;
+    padding: 1px 5px;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-link{
+    padding: 5px;
+}
